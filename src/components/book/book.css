@@ -17,12 +17,12 @@
     position: absolute;
     width: 150px;
     height: 4px;
-    background-color: #204945;
+    background-color: #398541;
     top: 95px;
 }
 
 .book-content>h1 {
-    color: #204945;
+    color: #2fde41;
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 30px;

@@ -6,7 +6,7 @@
     text-align: center;
     text-transform: capitalize;
     font-size: 40px;
-    color: #204945;
+    color: #2fde41;
     font-weight: bold;
     padding-bottom: 20px;
 }
@@ -16,7 +16,7 @@
     position: absolute;
     width: 150px;
     height: 4px;
-    background-color: #204945;
+    background-color: #398541;
     top: 75px;
     right: 43%;
 }
@@ -26,6 +26,10 @@
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     gap: 2rem;
+}
+
+.card-image>.icon {
+    font-size: 5rem;
 }
 
 .card-content {

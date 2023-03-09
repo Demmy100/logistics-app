@@ -19,12 +19,12 @@
     position: absolute;
     width: 150px;
     height: 4px;
-    background-color: #204945;
+    background-color: #398541;
     top: 50px;
 }
 
 .about-title>h1 {
-    color: #204945;
+    color: #2fde41;
     font-size: 40px;
     font-weight: bold;
     text-transform: capitalize;
@@ -47,7 +47,7 @@
 
 .about-mission>h2 {
     font-size: 25px;
-    color: #204945;
+    color: #2fde41;
     font-weight: bold;
 }
 
@@ -63,7 +63,7 @@
 
 .about-vision>h2 {
     font-size: 25px;
-    color: #204945;
+    color: #2fde41;
     font-weight: bold;
 }
 

@@ -7,7 +7,7 @@ import person from '../../assets/person.png'
 
 const Estimate = () => {
   return (
-    <div>
+    <div className='estimate-container'>
       <div className="container estimate">
         <div className="estimate-l">
             <div className="title">

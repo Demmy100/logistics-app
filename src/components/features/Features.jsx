@@ -6,6 +6,12 @@ import feature3 from '../../assets/feature3.png'
 import feature4 from '../../assets/feature4.png'
 import feature5 from '../../assets/feature5.png'
 import feature6 from '../../assets/feature6.png'
+import TextSnippetOutlinedIcon from '@mui/icons-material/TextSnippetOutlined';
+import LocalShippingOutlinedIcon from '@mui/icons-material/LocalShippingOutlined';
+import MonetizationOnOutlinedIcon from '@mui/icons-material/MonetizationOnOutlined';
+import TrendingUpOutlinedIcon from '@mui/icons-material/TrendingUpOutlined';
+import GppGoodOutlinedIcon from '@mui/icons-material/GppGoodOutlined';
+import SupportAgentOutlinedIcon from '@mui/icons-material/SupportAgentOutlined';
 const Features = () => {
   return (
     <div className='features'>
@@ -15,7 +21,9 @@ const Features = () => {
         <div className="card">
             <div className="card-content">
                 <div className="card-image">
-                    <img src={feature1} alt="" />
+                    {/* <img src={feature1} alt="" /> */}
+                    <TextSnippetOutlinedIcon className='icon'/>
+                    
                 </div>
                 <div className="card-title">
                     <h1>Easy Booking</h1>
@@ -24,7 +32,8 @@ const Features = () => {
             </div>
             <div className="card-content">
                 <div className="card-image">
-                    <img src={feature2} alt="" />
+                    {/* <img src={feature2} alt="" /> */}
+                    <LocalShippingOutlinedIcon className='icon' />
                 </div>
                 <div className="card-title">
                     <h1>Fast Delivery</h1>
@@ -33,7 +42,8 @@ const Features = () => {
             </div>
             <div className="card-content">
                 <div className="card-image">
-                    <img src={feature3} alt="" />
+                    {/* <img src={feature3} alt="" /> */}
+                    <MonetizationOnOutlinedIcon className='icon' />
                 </div>
                 <div className="card-title">
                     <h1>Rate comparison</h1>
@@ -42,7 +52,8 @@ const Features = () => {
             </div>
             <div className="card-content">
                 <div className="card-image">
-                    <img src={feature4} alt="" />
+                   {/*  <img src={feature4} alt="" /> */}
+                   <TrendingUpOutlinedIcon className='icon' />
                 </div>
                 <div className="card-title">
                     <h1>Live Tracking</h1>
@@ -51,7 +62,8 @@ const Features = () => {
             </div>
             <div className="card-content">
                 <div className="card-image">
-                    <img src={feature5} alt="" />
+                    {/* <img src={feature5} alt="" /> */}
+                    <GppGoodOutlinedIcon className='icon' />
                 </div>
                 <div className="card-title">
                     <h1>Security</h1>
@@ -60,7 +72,8 @@ const Features = () => {
             </div>
             <div className="card-content">
                 <div className="card-image">
-                    <img src={feature6} alt="" />
+                    {/* <img src={feature6} alt="" /> */}
+                    <SupportAgentOutlinedIcon className='icon' />
                 </div>
                 <div className="card-title">
                     <h1>Great Support</h1>
